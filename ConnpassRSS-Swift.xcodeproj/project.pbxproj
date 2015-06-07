@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2C3DE4F1B22B12E00332CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE4E1B22B12E00332CFC /* AppDelegate.swift */; };
+		C2C3DE541B22B12E00332CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE521B22B12E00332CFC /* Main.storyboard */; };
+		C2C3DE561B22B12E00332CFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE551B22B12E00332CFC /* Images.xcassets */; };
+		C2C3DE591B22B12E00332CFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE571B22B12E00332CFC /* LaunchScreen.xib */; };
+		C2C3DE651B22B12E00332CFC /* ConnpassRSS_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE641B22B12E00332CFC /* ConnpassRSS_SwiftTests.swift */; };
+		C2C3DE811B22BF1700332CFC /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE711B22BF1700332CFC /* FromJSON.swift */; };
+		C2C3DE821B22BF1700332CFC /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE721B22BF1700332CFC /* Mapper.swift */; };
+		C2C3DE831B22BF1700332CFC /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE731B22BF1700332CFC /* Operators.swift */; };
+		C2C3DE841B22BF1700332CFC /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE741B22BF1700332CFC /* ToJSON.swift */; };
+		C2C3DE851B22BF1700332CFC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE751B22BF1700332CFC /* Info.plist */; };
+		C2C3DE861B22BF1700332CFC /* ObjectMapper.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE771B22BF1700332CFC /* ObjectMapper.podspec */; };
+		C2C3DE871B22BF1700332CFC /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE791B22BF1700332CFC /* CustomDateFormatTransform.swift */; };
+		C2C3DE881B22BF1700332CFC /* DateFormaterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE7A1B22BF1700332CFC /* DateFormaterTransform.swift */; };
+		C2C3DE891B22BF1700332CFC /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE7B1B22BF1700332CFC /* DateTransform.swift */; };
+		C2C3DE8A1B22BF1700332CFC /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE7C1B22BF1700332CFC /* EnumTransform.swift */; };
+		C2C3DE8B1B22BF1700332CFC /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE7D1B22BF1700332CFC /* ISO8601DateTransform.swift */; };
+		C2C3DE8C1B22BF1700332CFC /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE7E1B22BF1700332CFC /* TransformOf.swift */; };
+		C2C3DE8D1B22BF1700332CFC /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE7F1B22BF1700332CFC /* TransformType.swift */; };
+		C2C3DE8E1B22BF1700332CFC /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE801B22BF1700332CFC /* URLTransform.swift */; };
+		C2C3DE951B22BF4600332CFC /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE911B22BF4600332CFC /* Info-iOS.plist */; };
+		C2C3DE961B22BF4600332CFC /* Info-OSX.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE921B22BF4600332CFC /* Info-OSX.plist */; };
+		C2C3DE971B22BF4600332CFC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE941B22BF4600332CFC /* SwiftyJSON.swift */; };
+		C2C3DEA41B22BF7100332CFC /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE9B1B22BF7100332CFC /* Alamofire.swift */; };
+		C2C3DEA51B22BF7100332CFC /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE9C1B22BF7100332CFC /* Download.swift */; };
+		C2C3DEA61B22BF7100332CFC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE9D1B22BF7100332CFC /* Info.plist */; };
+		C2C3DEA71B22BF7100332CFC /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE9E1B22BF7100332CFC /* Manager.swift */; };
+		C2C3DEA81B22BF7100332CFC /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE9F1B22BF7100332CFC /* ParameterEncoding.swift */; };
+		C2C3DEA91B22BF7100332CFC /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEA01B22BF7100332CFC /* Request.swift */; };
+		C2C3DEAA1B22BF7100332CFC /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEA11B22BF7100332CFC /* ResponseSerialization.swift */; };
+		C2C3DEAB1B22BF7100332CFC /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEA21B22BF7100332CFC /* Upload.swift */; };
+		C2C3DEAC1B22BF7100332CFC /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEA31B22BF7100332CFC /* Validation.swift */; };
+		C2C3DEB21B22D11600332CFC /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEB11B22D11600332CFC /* EventListViewController.swift */; };
+		C2C3DEB81B22E66C00332CFC /* ConnpassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEB71B22E66C00332CFC /* ConnpassModel.swift */; };
+		C2C3DEBA1B22E68B00332CFC /* SeriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEB91B22E68B00332CFC /* SeriesModel.swift */; };
+		C2C3DEBC1B22E69800332CFC /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEBB1B22E69800332CFC /* EventModel.swift */; };
+		C2C3DEBE1B22F6C100332CFC /* ConnpassEventRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEBD1B22F6C100332CFC /* ConnpassEventRequestManager.swift */; };
+		C2C3DEC01B22FA2100332CFC /* ConnpassModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEBF1B22FA2100332CFC /* ConnpassModelManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2C3DE5F1B22B12E00332CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2C3DE411B22B12E00332CFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2C3DE481B22B12E00332CFC;
+			remoteInfo = "ConnpassRSS-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2C3DE491B22B12E00332CFC /* ConnpassRSS-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConnpassRSS-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C3DE4D1B22B12E00332CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C3DE4E1B22B12E00332CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2C3DE531B22B12E00332CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2C3DE551B22B12E00332CFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2C3DE581B22B12E00332CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C2C3DE5E1B22B12E00332CFC /* ConnpassRSS-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConnpassRSS-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C3DE631B22B12E00332CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C3DE641B22B12E00332CFC /* ConnpassRSS_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnpassRSS_SwiftTests.swift; sourceTree = "<group>"; };
+		C2C3DE711B22BF1700332CFC /* FromJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromJSON.swift; sourceTree = "<group>"; };
+		C2C3DE721B22BF1700332CFC /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		C2C3DE731B22BF1700332CFC /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		C2C3DE741B22BF1700332CFC /* ToJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToJSON.swift; sourceTree = "<group>"; };
+		C2C3DE751B22BF1700332CFC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C3DE761B22BF1700332CFC /* ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMapper.h; sourceTree = "<group>"; };
+		C2C3DE771B22BF1700332CFC /* ObjectMapper.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ObjectMapper.podspec; sourceTree = "<group>"; };
+		C2C3DE791B22BF1700332CFC /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		C2C3DE7A1B22BF1700332CFC /* DateFormaterTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormaterTransform.swift; sourceTree = "<group>"; };
+		C2C3DE7B1B22BF1700332CFC /* DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTransform.swift; sourceTree = "<group>"; };
+		C2C3DE7C1B22BF1700332CFC /* EnumTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTransform.swift; sourceTree = "<group>"; };
+		C2C3DE7D1B22BF1700332CFC /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		C2C3DE7E1B22BF1700332CFC /* TransformOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOf.swift; sourceTree = "<group>"; };
+		C2C3DE7F1B22BF1700332CFC /* TransformType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformType.swift; sourceTree = "<group>"; };
+		C2C3DE801B22BF1700332CFC /* URLTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLTransform.swift; sourceTree = "<group>"; };
+		C2C3DE911B22BF4600332CFC /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		C2C3DE921B22BF4600332CFC /* Info-OSX.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-OSX.plist"; sourceTree = "<group>"; };
+		C2C3DE931B22BF4600332CFC /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		C2C3DE941B22BF4600332CFC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		C2C3DE9A1B22BF7100332CFC /* Alamofire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alamofire.h; sourceTree = "<group>"; };
+		C2C3DE9B1B22BF7100332CFC /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		C2C3DE9C1B22BF7100332CFC /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		C2C3DE9D1B22BF7100332CFC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C3DE9E1B22BF7100332CFC /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		C2C3DE9F1B22BF7100332CFC /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		C2C3DEA01B22BF7100332CFC /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		C2C3DEA11B22BF7100332CFC /* ResponseSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		C2C3DEA21B22BF7100332CFC /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
+		C2C3DEA31B22BF7100332CFC /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		C2C3DEB11B22D11600332CFC /* EventListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		C2C3DEB71B22E66C00332CFC /* ConnpassModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnpassModel.swift; sourceTree = "<group>"; };
+		C2C3DEB91B22E68B00332CFC /* SeriesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesModel.swift; sourceTree = "<group>"; };
+		C2C3DEBB1B22E69800332CFC /* EventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		C2C3DEBD1B22F6C100332CFC /* ConnpassEventRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnpassEventRequestManager.swift; sourceTree = "<group>"; };
+		C2C3DEBF1B22FA2100332CFC /* ConnpassModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnpassModelManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2C3DE461B22B12E00332CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C3DE5B1B22B12E00332CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2C3DE401B22B12E00332CFC = {
+			isa = PBXGroup;
+			children = (
+				C2C3DE4B1B22B12E00332CFC /* ConnpassRSS-Swift */,
+				C2C3DE611B22B12E00332CFC /* ConnpassRSS-SwiftTests */,
+				C2C3DE4A1B22B12E00332CFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2C3DE4A1B22B12E00332CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DE491B22B12E00332CFC /* ConnpassRSS-Swift.app */,
+				C2C3DE5E1B22B12E00332CFC /* ConnpassRSS-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2C3DE4B1B22B12E00332CFC /* ConnpassRSS-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DEB01B22D0ED00332CFC /* ViewController */,
+				C2C3DEAD1B22C24900332CFC /* Model */,
+				C2C3DE6E1B22BEEB00332CFC /* Library */,
+				C2C3DE4E1B22B12E00332CFC /* AppDelegate.swift */,
+				C2C3DE521B22B12E00332CFC /* Main.storyboard */,
+				C2C3DE551B22B12E00332CFC /* Images.xcassets */,
+				C2C3DE571B22B12E00332CFC /* LaunchScreen.xib */,
+				C2C3DE4C1B22B12E00332CFC /* Supporting Files */,
+			);
+			path = "ConnpassRSS-Swift";
+			sourceTree = "<group>";
+		};
+		C2C3DE4C1B22B12E00332CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DE4D1B22B12E00332CFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2C3DE611B22B12E00332CFC /* ConnpassRSS-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DE641B22B12E00332CFC /* ConnpassRSS_SwiftTests.swift */,
+				C2C3DE621B22B12E00332CFC /* Supporting Files */,
+			);
+			path = "ConnpassRSS-SwiftTests";
+			sourceTree = "<group>";
+		};
+		C2C3DE621B22B12E00332CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DE631B22B12E00332CFC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2C3DE6E1B22BEEB00332CFC /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DE981B22BF5900332CFC /* Alamofire */,
+				C2C3DE8F1B22BF2A00332CFC /* SwiftyJSON */,
+				C2C3DE6F1B22BF1700332CFC /* ObjectMapper */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		C2C3DE6F1B22BF1700332CFC /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DE701B22BF1700332CFC /* Core */,
+				C2C3DE751B22BF1700332CFC /* Info.plist */,
+				C2C3DE761B22BF1700332CFC /* ObjectMapper.h */,
+				C2C3DE771B22BF1700332CFC /* ObjectMapper.podspec */,
+				C2C3DE781B22BF1700332CFC /* Transforms */,
+			);
+			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
+		C2C3DE701B22BF1700332CFC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DE711B22BF1700332CFC /* FromJSON.swift */,
+				C2C3DE721B22BF1700332CFC /* Mapper.swift */,
+				C2C3DE731B22BF1700332CFC /* Operators.swift */,
+				C2C3DE741B22BF1700332CFC /* ToJSON.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C2C3DE781B22BF1700332CFC /* Transforms */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DE791B22BF1700332CFC /* CustomDateFormatTransform.swift */,
+				C2C3DE7A1B22BF1700332CFC /* DateFormaterTransform.swift */,
+				C2C3DE7B1B22BF1700332CFC /* DateTransform.swift */,
+				C2C3DE7C1B22BF1700332CFC /* EnumTransform.swift */,
+				C2C3DE7D1B22BF1700332CFC /* ISO8601DateTransform.swift */,
+				C2C3DE7E1B22BF1700332CFC /* TransformOf.swift */,
+				C2C3DE7F1B22BF1700332CFC /* TransformType.swift */,
+				C2C3DE801B22BF1700332CFC /* URLTransform.swift */,
+			);
+			path = Transforms;
+			sourceTree = "<group>";
+		};
+		C2C3DE8F1B22BF2A00332CFC /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DE901B22BF4600332CFC /* Source */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		C2C3DE901B22BF4600332CFC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DE911B22BF4600332CFC /* Info-iOS.plist */,
+				C2C3DE921B22BF4600332CFC /* Info-OSX.plist */,
+				C2C3DE931B22BF4600332CFC /* SwiftyJSON.h */,
+				C2C3DE941B22BF4600332CFC /* SwiftyJSON.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C2C3DE981B22BF5900332CFC /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DE991B22BF7100332CFC /* Source */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		C2C3DE991B22BF7100332CFC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DE9A1B22BF7100332CFC /* Alamofire.h */,
+				C2C3DE9B1B22BF7100332CFC /* Alamofire.swift */,
+				C2C3DE9C1B22BF7100332CFC /* Download.swift */,
+				C2C3DE9D1B22BF7100332CFC /* Info.plist */,
+				C2C3DE9E1B22BF7100332CFC /* Manager.swift */,
+				C2C3DE9F1B22BF7100332CFC /* ParameterEncoding.swift */,
+				C2C3DEA01B22BF7100332CFC /* Request.swift */,
+				C2C3DEA11B22BF7100332CFC /* ResponseSerialization.swift */,
+				C2C3DEA21B22BF7100332CFC /* Upload.swift */,
+				C2C3DEA31B22BF7100332CFC /* Validation.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C2C3DEAD1B22C24900332CFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DEB71B22E66C00332CFC /* ConnpassModel.swift */,
+				C2C3DEB91B22E68B00332CFC /* SeriesModel.swift */,
+				C2C3DEBB1B22E69800332CFC /* EventModel.swift */,
+				C2C3DEBD1B22F6C100332CFC /* ConnpassEventRequestManager.swift */,
+				C2C3DEBF1B22FA2100332CFC /* ConnpassModelManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2C3DEB01B22D0ED00332CFC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DEB11B22D11600332CFC /* EventListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2C3DE481B22B12E00332CFC /* ConnpassRSS-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C3DE681B22B12E00332CFC /* Build configuration list for PBXNativeTarget "ConnpassRSS-Swift" */;
+			buildPhases = (
+				C2C3DE451B22B12E00332CFC /* Sources */,
+				C2C3DE461B22B12E00332CFC /* Frameworks */,
+				C2C3DE471B22B12E00332CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ConnpassRSS-Swift";
+			productName = "ConnpassRSS-Swift";
+			productReference = C2C3DE491B22B12E00332CFC /* ConnpassRSS-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2C3DE5D1B22B12E00332CFC /* ConnpassRSS-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C3DE6B1B22B12E00332CFC /* Build configuration list for PBXNativeTarget "ConnpassRSS-SwiftTests" */;
+			buildPhases = (
+				C2C3DE5A1B22B12E00332CFC /* Sources */,
+				C2C3DE5B1B22B12E00332CFC /* Frameworks */,
+				C2C3DE5C1B22B12E00332CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2C3DE601B22B12E00332CFC /* PBXTargetDependency */,
+			);
+			name = "ConnpassRSS-SwiftTests";
+			productName = "ConnpassRSS-SwiftTests";
+			productReference = C2C3DE5E1B22B12E00332CFC /* ConnpassRSS-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2C3DE411B22B12E00332CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = hachinobu;
+				TargetAttributes = {
+					C2C3DE481B22B12E00332CFC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C2C3DE5D1B22B12E00332CFC = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C2C3DE481B22B12E00332CFC;
+					};
+				};
+			};
+			buildConfigurationList = C2C3DE441B22B12E00332CFC /* Build configuration list for PBXProject "ConnpassRSS-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2C3DE401B22B12E00332CFC;
+			productRefGroup = C2C3DE4A1B22B12E00332CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2C3DE481B22B12E00332CFC /* ConnpassRSS-Swift */,
+				C2C3DE5D1B22B12E00332CFC /* ConnpassRSS-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2C3DE471B22B12E00332CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C3DEA61B22BF7100332CFC /* Info.plist in Resources */,
+				C2C3DE951B22BF4600332CFC /* Info-iOS.plist in Resources */,
+				C2C3DE851B22BF1700332CFC /* Info.plist in Resources */,
+				C2C3DE541B22B12E00332CFC /* Main.storyboard in Resources */,
+				C2C3DE861B22BF1700332CFC /* ObjectMapper.podspec in Resources */,
+				C2C3DE591B22B12E00332CFC /* LaunchScreen.xib in Resources */,
+				C2C3DE561B22B12E00332CFC /* Images.xcassets in Resources */,
+				C2C3DE961B22BF4600332CFC /* Info-OSX.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C3DE5C1B22B12E00332CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2C3DE451B22B12E00332CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C3DE881B22BF1700332CFC /* DateFormaterTransform.swift in Sources */,
+				C2C3DE821B22BF1700332CFC /* Mapper.swift in Sources */,
+				C2C3DE8E1B22BF1700332CFC /* URLTransform.swift in Sources */,
+				C2C3DE971B22BF4600332CFC /* SwiftyJSON.swift in Sources */,
+				C2C3DEBA1B22E68B00332CFC /* SeriesModel.swift in Sources */,
+				C2C3DEB81B22E66C00332CFC /* ConnpassModel.swift in Sources */,
+				C2C3DE891B22BF1700332CFC /* DateTransform.swift in Sources */,
+				C2C3DE8D1B22BF1700332CFC /* TransformType.swift in Sources */,
+				C2C3DEBC1B22E69800332CFC /* EventModel.swift in Sources */,
+				C2C3DE831B22BF1700332CFC /* Operators.swift in Sources */,
+				C2C3DEA71B22BF7100332CFC /* Manager.swift in Sources */,
+				C2C3DE841B22BF1700332CFC /* ToJSON.swift in Sources */,
+				C2C3DEA51B22BF7100332CFC /* Download.swift in Sources */,
+				C2C3DE8A1B22BF1700332CFC /* EnumTransform.swift in Sources */,
+				C2C3DE8B1B22BF1700332CFC /* ISO8601DateTransform.swift in Sources */,
+				C2C3DEAC1B22BF7100332CFC /* Validation.swift in Sources */,
+				C2C3DEB21B22D11600332CFC /* EventListViewController.swift in Sources */,
+				C2C3DEA41B22BF7100332CFC /* Alamofire.swift in Sources */,
+				C2C3DEBE1B22F6C100332CFC /* ConnpassEventRequestManager.swift in Sources */,
+				C2C3DE871B22BF1700332CFC /* CustomDateFormatTransform.swift in Sources */,
+				C2C3DEA81B22BF7100332CFC /* ParameterEncoding.swift in Sources */,
+				C2C3DEAB1B22BF7100332CFC /* Upload.swift in Sources */,
+				C2C3DEC01B22FA2100332CFC /* ConnpassModelManager.swift in Sources */,
+				C2C3DE8C1B22BF1700332CFC /* TransformOf.swift in Sources */,
+				C2C3DEA91B22BF7100332CFC /* Request.swift in Sources */,
+				C2C3DE4F1B22B12E00332CFC /* AppDelegate.swift in Sources */,
+				C2C3DEAA1B22BF7100332CFC /* ResponseSerialization.swift in Sources */,
+				C2C3DE811B22BF1700332CFC /* FromJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C3DE5A1B22B12E00332CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C3DE651B22B12E00332CFC /* ConnpassRSS_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2C3DE601B22B12E00332CFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2C3DE481B22B12E00332CFC /* ConnpassRSS-Swift */;
+			targetProxy = C2C3DE5F1B22B12E00332CFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2C3DE521B22B12E00332CFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2C3DE531B22B12E00332CFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2C3DE571B22B12E00332CFC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2C3DE581B22B12E00332CFC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2C3DE661B22B12E00332CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2C3DE671B22B12E00332CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2C3DE691B22B12E00332CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ConnpassRSS-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2C3DE6A1B22B12E00332CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ConnpassRSS-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2C3DE6C1B22B12E00332CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ConnpassRSS-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnpassRSS-Swift.app/ConnpassRSS-Swift";
+			};
+			name = Debug;
+		};
+		C2C3DE6D1B22B12E00332CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ConnpassRSS-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConnpassRSS-Swift.app/ConnpassRSS-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2C3DE441B22B12E00332CFC /* Build configuration list for PBXProject "ConnpassRSS-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C3DE661B22B12E00332CFC /* Debug */,
+				C2C3DE671B22B12E00332CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C3DE681B22B12E00332CFC /* Build configuration list for PBXNativeTarget "ConnpassRSS-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C3DE691B22B12E00332CFC /* Debug */,
+				C2C3DE6A1B22B12E00332CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C3DE6B1B22B12E00332CFC /* Build configuration list for PBXNativeTarget "ConnpassRSS-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C3DE6C1B22B12E00332CFC /* Debug */,
+				C2C3DE6D1B22B12E00332CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2C3DE411B22B12E00332CFC /* Project object */;
+}
