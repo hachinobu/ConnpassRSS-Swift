@@ -10,7 +10,7 @@ import Foundation
 
 class ConnpassModelManager {
     
-    class func loadEventWithCompletion(completion: (ConnpassModel) -> Void) {
+    class func loadEventWithCompletion(completion: (ConnpassModel!) -> Void) {
         
         ConnpassEventRequestManager.requestConnpassEvents { (request, response, jsonString, error) -> Void in
             if error == nil {

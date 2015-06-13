@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C24FDCEE1B2C027400D712B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24FDCED1B2C027400D712B4 /* Main.storyboard */; };
+		C24FDCF01B2C02BF00D712B4 /* EventDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24FDCEF1B2C02BF00D712B4 /* EventDetail.storyboard */; };
+		C24FDCF21B2C118D00D712B4 /* EventDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FDCF11B2C118D00D712B4 /* EventDetailTableViewCell.swift */; };
+		C24FDCF41B2C1F1300D712B4 /* EventDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FDCF31B2C1F1300D712B4 /* EventDetailTableViewController.swift */; };
 		C2C3DE4F1B22B12E00332CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE4E1B22B12E00332CFC /* AppDelegate.swift */; };
-		C2C3DE541B22B12E00332CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE521B22B12E00332CFC /* Main.storyboard */; };
 		C2C3DE561B22B12E00332CFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE551B22B12E00332CFC /* Images.xcassets */; };
 		C2C3DE591B22B12E00332CFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE571B22B12E00332CFC /* LaunchScreen.xib */; };
 		C2C3DE651B22B12E00332CFC /* ConnpassRSS_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE641B22B12E00332CFC /* ConnpassRSS_SwiftTests.swift */; };
@@ -44,6 +47,8 @@
 		C2C3DEBC1B22E69800332CFC /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEBB1B22E69800332CFC /* EventModel.swift */; };
 		C2C3DEBE1B22F6C100332CFC /* ConnpassEventRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEBD1B22F6C100332CFC /* ConnpassEventRequestManager.swift */; };
 		C2C3DEC01B22FA2100332CFC /* ConnpassModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEBF1B22FA2100332CFC /* ConnpassModelManager.swift */; };
+		C2C3DEC51B272C4500332CFC /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEC41B272C4500332CFC /* EventTableViewCell.swift */; };
+		C2C3DEC81B287AE300332CFC /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEC71B287AE300332CFC /* DateUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +62,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C24FDCED1B2C027400D712B4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C24FDCEF1B2C02BF00D712B4 /* EventDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EventDetail.storyboard; sourceTree = "<group>"; };
+		C24FDCF11B2C118D00D712B4 /* EventDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailTableViewCell.swift; sourceTree = "<group>"; };
+		C24FDCF31B2C1F1300D712B4 /* EventDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailTableViewController.swift; sourceTree = "<group>"; };
 		C2C3DE491B22B12E00332CFC /* ConnpassRSS-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConnpassRSS-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C3DE4D1B22B12E00332CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C3DE4E1B22B12E00332CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2C3DE531B22B12E00332CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2C3DE551B22B12E00332CFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C2C3DE581B22B12E00332CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C2C3DE5E1B22B12E00332CFC /* ConnpassRSS-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConnpassRSS-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +109,8 @@
 		C2C3DEBB1B22E69800332CFC /* EventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
 		C2C3DEBD1B22F6C100332CFC /* ConnpassEventRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnpassEventRequestManager.swift; sourceTree = "<group>"; };
 		C2C3DEBF1B22FA2100332CFC /* ConnpassModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnpassModelManager.swift; sourceTree = "<group>"; };
+		C2C3DEC41B272C4500332CFC /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		C2C3DEC71B287AE300332CFC /* DateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +131,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C24FDCEC1B2C021500D712B4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C24FDCED1B2C027400D712B4 /* Main.storyboard */,
+				C24FDCEF1B2C02BF00D712B4 /* EventDetail.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		C2C3DE401B22B12E00332CFC = {
 			isa = PBXGroup;
 			children = (
@@ -142,11 +161,13 @@
 		C2C3DE4B1B22B12E00332CFC /* ConnpassRSS-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				C24FDCEC1B2C021500D712B4 /* Storyboard */,
+				C2C3DEC61B287AC500332CFC /* Util */,
+				C2C3DEC31B272C0700332CFC /* View */,
 				C2C3DEB01B22D0ED00332CFC /* ViewController */,
 				C2C3DEAD1B22C24900332CFC /* Model */,
 				C2C3DE6E1B22BEEB00332CFC /* Library */,
 				C2C3DE4E1B22B12E00332CFC /* AppDelegate.swift */,
-				C2C3DE521B22B12E00332CFC /* Main.storyboard */,
 				C2C3DE551B22B12E00332CFC /* Images.xcassets */,
 				C2C3DE571B22B12E00332CFC /* LaunchScreen.xib */,
 				C2C3DE4C1B22B12E00332CFC /* Supporting Files */,
@@ -287,8 +308,26 @@
 			isa = PBXGroup;
 			children = (
 				C2C3DEB11B22D11600332CFC /* EventListViewController.swift */,
+				C24FDCF31B2C1F1300D712B4 /* EventDetailTableViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C2C3DEC31B272C0700332CFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DEC41B272C4500332CFC /* EventTableViewCell.swift */,
+				C24FDCF11B2C118D00D712B4 /* EventDetailTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2C3DEC61B287AC500332CFC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3DEC71B287AE300332CFC /* DateUtil.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,9 +411,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2C3DEA61B22BF7100332CFC /* Info.plist in Resources */,
+				C24FDCF01B2C02BF00D712B4 /* EventDetail.storyboard in Resources */,
 				C2C3DE951B22BF4600332CFC /* Info-iOS.plist in Resources */,
 				C2C3DE851B22BF1700332CFC /* Info.plist in Resources */,
-				C2C3DE541B22B12E00332CFC /* Main.storyboard in Resources */,
+				C24FDCEE1B2C027400D712B4 /* Main.storyboard in Resources */,
 				C2C3DE861B22BF1700332CFC /* ObjectMapper.podspec in Resources */,
 				C2C3DE591B22B12E00332CFC /* LaunchScreen.xib in Resources */,
 				C2C3DE561B22B12E00332CFC /* Images.xcassets in Resources */,
@@ -398,6 +438,7 @@
 			files = (
 				C2C3DE881B22BF1700332CFC /* DateFormaterTransform.swift in Sources */,
 				C2C3DE821B22BF1700332CFC /* Mapper.swift in Sources */,
+				C24FDCF21B2C118D00D712B4 /* EventDetailTableViewCell.swift in Sources */,
 				C2C3DE8E1B22BF1700332CFC /* URLTransform.swift in Sources */,
 				C2C3DE971B22BF4600332CFC /* SwiftyJSON.swift in Sources */,
 				C2C3DEBA1B22E68B00332CFC /* SeriesModel.swift in Sources */,
@@ -406,6 +447,7 @@
 				C2C3DE8D1B22BF1700332CFC /* TransformType.swift in Sources */,
 				C2C3DEBC1B22E69800332CFC /* EventModel.swift in Sources */,
 				C2C3DE831B22BF1700332CFC /* Operators.swift in Sources */,
+				C24FDCF41B2C1F1300D712B4 /* EventDetailTableViewController.swift in Sources */,
 				C2C3DEA71B22BF7100332CFC /* Manager.swift in Sources */,
 				C2C3DE841B22BF1700332CFC /* ToJSON.swift in Sources */,
 				C2C3DEA51B22BF7100332CFC /* Download.swift in Sources */,
@@ -417,9 +459,11 @@
 				C2C3DEBE1B22F6C100332CFC /* ConnpassEventRequestManager.swift in Sources */,
 				C2C3DE871B22BF1700332CFC /* CustomDateFormatTransform.swift in Sources */,
 				C2C3DEA81B22BF7100332CFC /* ParameterEncoding.swift in Sources */,
+				C2C3DEC81B287AE300332CFC /* DateUtil.swift in Sources */,
 				C2C3DEAB1B22BF7100332CFC /* Upload.swift in Sources */,
 				C2C3DEC01B22FA2100332CFC /* ConnpassModelManager.swift in Sources */,
 				C2C3DE8C1B22BF1700332CFC /* TransformOf.swift in Sources */,
+				C2C3DEC51B272C4500332CFC /* EventTableViewCell.swift in Sources */,
 				C2C3DEA91B22BF7100332CFC /* Request.swift in Sources */,
 				C2C3DE4F1B22B12E00332CFC /* AppDelegate.swift in Sources */,
 				C2C3DEAA1B22BF7100332CFC /* ResponseSerialization.swift in Sources */,
@@ -446,14 +490,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C2C3DE521B22B12E00332CFC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2C3DE531B22B12E00332CFC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C2C3DE571B22B12E00332CFC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
