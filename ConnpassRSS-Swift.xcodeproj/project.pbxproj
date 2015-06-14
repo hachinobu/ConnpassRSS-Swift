@@ -11,6 +11,8 @@
 		C24FDCF01B2C02BF00D712B4 /* EventDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24FDCEF1B2C02BF00D712B4 /* EventDetail.storyboard */; };
 		C24FDCF21B2C118D00D712B4 /* EventDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FDCF11B2C118D00D712B4 /* EventDetailTableViewCell.swift */; };
 		C24FDCF41B2C1F1300D712B4 /* EventDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FDCF31B2C1F1300D712B4 /* EventDetailTableViewController.swift */; };
+		C25FD56E1B2D9C8700B9C4F4 /* EventDetailWeb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25FD56D1B2D9C8700B9C4F4 /* EventDetailWeb.storyboard */; };
+		C25FD5701B2DA42F00B9C4F4 /* EventDetailWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25FD56F1B2DA42F00B9C4F4 /* EventDetailWebViewController.swift */; };
 		C2C3DE4F1B22B12E00332CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE4E1B22B12E00332CFC /* AppDelegate.swift */; };
 		C2C3DE561B22B12E00332CFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE551B22B12E00332CFC /* Images.xcassets */; };
 		C2C3DE591B22B12E00332CFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE571B22B12E00332CFC /* LaunchScreen.xib */; };
@@ -66,6 +68,8 @@
 		C24FDCEF1B2C02BF00D712B4 /* EventDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EventDetail.storyboard; sourceTree = "<group>"; };
 		C24FDCF11B2C118D00D712B4 /* EventDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailTableViewCell.swift; sourceTree = "<group>"; };
 		C24FDCF31B2C1F1300D712B4 /* EventDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailTableViewController.swift; sourceTree = "<group>"; };
+		C25FD56D1B2D9C8700B9C4F4 /* EventDetailWeb.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EventDetailWeb.storyboard; sourceTree = "<group>"; };
+		C25FD56F1B2DA42F00B9C4F4 /* EventDetailWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailWebViewController.swift; sourceTree = "<group>"; };
 		C2C3DE491B22B12E00332CFC /* ConnpassRSS-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConnpassRSS-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C3DE4D1B22B12E00332CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C3DE4E1B22B12E00332CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 			children = (
 				C24FDCED1B2C027400D712B4 /* Main.storyboard */,
 				C24FDCEF1B2C02BF00D712B4 /* EventDetail.storyboard */,
+				C25FD56D1B2D9C8700B9C4F4 /* EventDetailWeb.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -309,6 +314,7 @@
 			children = (
 				C2C3DEB11B22D11600332CFC /* EventListViewController.swift */,
 				C24FDCF31B2C1F1300D712B4 /* EventDetailTableViewController.swift */,
+				C25FD56F1B2DA42F00B9C4F4 /* EventDetailWebViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -417,6 +423,7 @@
 				C24FDCEE1B2C027400D712B4 /* Main.storyboard in Resources */,
 				C2C3DE861B22BF1700332CFC /* ObjectMapper.podspec in Resources */,
 				C2C3DE591B22B12E00332CFC /* LaunchScreen.xib in Resources */,
+				C25FD56E1B2D9C8700B9C4F4 /* EventDetailWeb.storyboard in Resources */,
 				C2C3DE561B22B12E00332CFC /* Images.xcassets in Resources */,
 				C2C3DE961B22BF4600332CFC /* Info-OSX.plist in Resources */,
 			);
@@ -436,6 +443,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C25FD5701B2DA42F00B9C4F4 /* EventDetailWebViewController.swift in Sources */,
 				C2C3DE881B22BF1700332CFC /* DateFormaterTransform.swift in Sources */,
 				C2C3DE821B22BF1700332CFC /* Mapper.swift in Sources */,
 				C24FDCF21B2C118D00D712B4 /* EventDetailTableViewCell.swift in Sources */,

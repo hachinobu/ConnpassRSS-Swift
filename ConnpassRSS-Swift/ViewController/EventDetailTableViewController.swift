@@ -12,6 +12,8 @@ class EventDetailTableViewController: UITableViewController {
 
     let NavigationTitleName = "イベント"
     let EventDetailCellIdentifier = "EventDetailCell"
+    let EventDetailWebStoryboardName = "EventDetailWeb"
+    
     var eventModel: EventModel!
     
     override func viewDidLoad() {
@@ -45,8 +47,13 @@ extension EventDetailTableViewController: EventDetailTableViewCellDelegate {
     
     func segueEventWeb() {
         
-        
-        
+        let storyboard: UIStoryboard = UIStoryboard(name: EventDetailWebStoryboardName, bundle: NSBundle.mainBundle())
+        let webNavigationController = storyboard.instantiateInitialViewController() as! UINavigationController
+        let eventWebViewController = webNavigationController.topViewController as! EventDetailWebViewController
+        eventWebViewController.eventURL = eventModel.url ?? NSURL()
+        self.presentViewController(webNavigationController, animated: true) { () -> Void in
+            
+        }
     }
     
 }
