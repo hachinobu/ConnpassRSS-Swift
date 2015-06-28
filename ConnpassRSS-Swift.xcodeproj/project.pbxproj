@@ -13,6 +13,7 @@
 		C24FDCF41B2C1F1300D712B4 /* EventDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FDCF31B2C1F1300D712B4 /* EventDetailTableViewController.swift */; };
 		C25FD56E1B2D9C8700B9C4F4 /* EventDetailWeb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25FD56D1B2D9C8700B9C4F4 /* EventDetailWeb.storyboard */; };
 		C25FD5701B2DA42F00B9C4F4 /* EventDetailWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25FD56F1B2DA42F00B9C4F4 /* EventDetailWebViewController.swift */; };
+		C25FD5731B40138900B9C4F4 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25FD5721B40138900B9C4F4 /* EventViewModel.swift */; };
 		C2C3DE4F1B22B12E00332CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE4E1B22B12E00332CFC /* AppDelegate.swift */; };
 		C2C3DE561B22B12E00332CFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE551B22B12E00332CFC /* Images.xcassets */; };
 		C2C3DE591B22B12E00332CFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE571B22B12E00332CFC /* LaunchScreen.xib */; };
@@ -70,6 +71,7 @@
 		C24FDCF31B2C1F1300D712B4 /* EventDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailTableViewController.swift; sourceTree = "<group>"; };
 		C25FD56D1B2D9C8700B9C4F4 /* EventDetailWeb.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EventDetailWeb.storyboard; sourceTree = "<group>"; };
 		C25FD56F1B2DA42F00B9C4F4 /* EventDetailWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailWebViewController.swift; sourceTree = "<group>"; };
+		C25FD5721B40138900B9C4F4 /* EventViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
 		C2C3DE491B22B12E00332CFC /* ConnpassRSS-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConnpassRSS-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C3DE4D1B22B12E00332CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C3DE4E1B22B12E00332CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +145,14 @@
 				C25FD56D1B2D9C8700B9C4F4 /* EventDetailWeb.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C25FD5711B4012E200B9C4F4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C25FD5721B40138900B9C4F4 /* EventViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		C2C3DE401B22B12E00332CFC = {
@@ -305,6 +315,7 @@
 				C2C3DEBB1B22E69800332CFC /* EventModel.swift */,
 				C2C3DEBD1B22F6C100332CFC /* ConnpassEventRequestManager.swift */,
 				C2C3DEBF1B22FA2100332CFC /* ConnpassModelManager.swift */,
+				C25FD5711B4012E200B9C4F4 /* ViewModel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -446,6 +457,7 @@
 				C25FD5701B2DA42F00B9C4F4 /* EventDetailWebViewController.swift in Sources */,
 				C2C3DE881B22BF1700332CFC /* DateFormaterTransform.swift in Sources */,
 				C2C3DE821B22BF1700332CFC /* Mapper.swift in Sources */,
+				C25FD5731B40138900B9C4F4 /* EventViewModel.swift in Sources */,
 				C24FDCF21B2C118D00D712B4 /* EventDetailTableViewCell.swift in Sources */,
 				C2C3DE8E1B22BF1700332CFC /* URLTransform.swift in Sources */,
 				C2C3DE971B22BF4600332CFC /* SwiftyJSON.swift in Sources */,

@@ -43,7 +43,7 @@ class EventListViewController: UIViewController, UITableViewDataSource, UITableV
         
         eventsTableView.dataSource = self;
         eventsTableView.delegate = self;
-        eventsTableView.insertSubview(refreshControl, atIndex: 0)
+        eventsTableView.addSubview(refreshControl)
     }
     
     func fetchEvents() {
@@ -80,7 +80,8 @@ extension EventListViewController: UITableViewDataSource {
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(EventCellIdentifier, forIndexPath: indexPath) as! EventTableViewCell
         let event = eventModels[indexPath.row]
-        cell.setupEventModel(event)
+        let eventViewModel = EventViewModel(event: event)
+        cell.setupEventModel(eventViewModel)
         return cell
     }
     

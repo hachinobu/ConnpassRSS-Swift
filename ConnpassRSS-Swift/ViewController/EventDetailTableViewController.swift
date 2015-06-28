@@ -35,7 +35,8 @@ extension EventDetailTableViewController: UITableViewDataSource {
         
         let cell = super.tableView(tableView, cellForRowAtIndexPath: indexPath) as! EventDetailTableViewCell
         cell.delegate = self
-        cell.setupEventDetailCell(eventModel)
+        let eventViewModel = EventViewModel(event: eventModel)
+        cell.setupEventDetailCell(eventViewModel)
         
         return cell
     }

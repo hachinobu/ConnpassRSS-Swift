@@ -19,17 +19,16 @@ class EventTableViewCell: UITableViewCell {
         self.accessoryType = .DisclosureIndicator
     }
     
-    func setupEventModel(model: EventModel) {
+    func setupEventModel(model: EventViewModel) {
         
         scheduleLabel.text = model.schedule()
-        
         titleLabel.attributedText = model.titleInfo()
         
         let recruitment: (color: UIColor, text: String) = model.recruitment()
         personsLabel.textColor = recruitment.color
         personsLabel.text = recruitment.text
         
-        hashTagLabel.text = model.hashTag ?? ""
+        hashTagLabel.text = model.eventModel.hashTag ?? ""
         
     }
     

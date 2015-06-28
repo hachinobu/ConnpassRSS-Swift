@@ -43,10 +43,10 @@ class EventDetailTableViewCell: UITableViewCell {
         eventDetailButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
     }
 
-    func setupEventDetailCell(eventModel: EventModel) {
+    func setupEventDetailCell(model: EventViewModel) {
         
-        titleLabel.attributedText = eventModel.titleInfo()
-        let catchCopyInfo: (empty: Bool, attributedText: NSAttributedString) = eventModel.catchCopyInfo()
+        titleLabel.attributedText = model.titleInfo()
+        let catchCopyInfo: (empty: Bool, attributedText: NSAttributedString) = model.catchCopyInfo()
         if catchCopyInfo.empty {
             catchCopyConstraintHeight.constant = 0
             catchCopyLabel.text = ""
@@ -55,13 +55,13 @@ class EventDetailTableViewCell: UITableViewCell {
             catchCopyLabel.attributedText = catchCopyInfo.attributedText
         }
         
-        let recruitmentInfo: (color: UIColor, text: String) = eventModel.recruitment()
+        let recruitmentInfo: (color: UIColor, text: String) = model.recruitment()
         recruitLabel.textColor = recruitmentInfo.color
         recruitLabel.text = recruitmentInfo.text
         
-        scheduleLabel.text = eventModel.schedule()
-        placeLabel.attributedText = eventModel.eventPlace()
-        eventWebView.loadHTMLString(eventModel.description, baseURL: nil)
+        scheduleLabel.text = model.schedule()
+        placeLabel.attributedText = model.eventPlace()
+        eventWebView.loadHTMLString(model.eventModel.description, baseURL: nil)
         
     }
     
