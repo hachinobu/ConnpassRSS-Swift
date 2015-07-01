@@ -14,6 +14,29 @@
 		C25FD56E1B2D9C8700B9C4F4 /* EventDetailWeb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25FD56D1B2D9C8700B9C4F4 /* EventDetailWeb.storyboard */; };
 		C25FD5701B2DA42F00B9C4F4 /* EventDetailWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25FD56F1B2DA42F00B9C4F4 /* EventDetailWebViewController.swift */; };
 		C25FD5731B40138900B9C4F4 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25FD5721B40138900B9C4F4 /* EventViewModel.swift */; };
+		C28B428A1B42DB59003F1572 /* Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B42681B42DB59003F1572 /* Bond.swift */; };
+		C28B428B1B42DB5A003F1572 /* Bond+Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B42691B42DB59003F1572 /* Bond+Arrays.swift */; };
+		C28B428C1B42DB5A003F1572 /* Bond+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B426A1B42DB59003F1572 /* Bond+Foundation.swift */; };
+		C28B428D1B42DB5A003F1572 /* Bond+Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B426B1B42DB59003F1572 /* Bond+Functional.swift */; };
+		C28B428E1B42DB5A003F1572 /* Bond+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B426C1B42DB59003F1572 /* Bond+Operators.swift */; };
+		C28B428F1B42DB5A003F1572 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C28B426D1B42DB59003F1572 /* Info.plist */; };
+		C28B42901B42DB5A003F1572 /* Bond+UIActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B426F1B42DB59003F1572 /* Bond+UIActivityIndicatorView.swift */; };
+		C28B42911B42DB5A003F1572 /* Bond+UIBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B42701B42DB59003F1572 /* Bond+UIBarItem.swift */; };
+		C28B42921B42DB5A003F1572 /* Bond+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B42711B42DB59003F1572 /* Bond+UIButton.swift */; };
+		C28B42931B42DB5A003F1572 /* Bond+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B42721B42DB59003F1572 /* Bond+UICollectionView.swift */; };
+		C28B42941B42DB5A003F1572 /* Bond+UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B42731B42DB59003F1572 /* Bond+UIDatePicker.swift */; };
+		C28B42951B42DB5A003F1572 /* Bond+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B42741B42DB59003F1572 /* Bond+UIImageView.swift */; };
+		C28B42961B42DB5A003F1572 /* Bond+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B42751B42DB59003F1572 /* Bond+UILabel.swift */; };
+		C28B42971B42DB5A003F1572 /* Bond+UINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B42761B42DB59003F1572 /* Bond+UINavigationItem.swift */; };
+		C28B42981B42DB5A003F1572 /* Bond+UIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B42771B42DB59003F1572 /* Bond+UIProgressView.swift */; };
+		C28B42991B42DB5A003F1572 /* Bond+UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B42781B42DB59003F1572 /* Bond+UISlider.swift */; };
+		C28B429A1B42DB5A003F1572 /* Bond+UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B42791B42DB59003F1572 /* Bond+UISwitch.swift */; };
+		C28B429B1B42DB5A003F1572 /* Bond+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B427A1B42DB59003F1572 /* Bond+UITableView.swift */; };
+		C28B429C1B42DB5A003F1572 /* Bond+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B427B1B42DB59003F1572 /* Bond+UITextField.swift */; };
+		C28B429D1B42DB5A003F1572 /* Bond+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B427C1B42DB59003F1572 /* Bond+UITextView.swift */; };
+		C28B429E1B42DB5A003F1572 /* Bond+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B427D1B42DB59003F1572 /* Bond+UIView.swift */; };
+		C28B42A71B42DB5A003F1572 /* Bond+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B42881B42DB59003F1572 /* Bond+CALayer.swift */; };
+		C28B42A81B42DB5A003F1572 /* Bond+NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B42891B42DB59003F1572 /* Bond+NSLayoutConstraint.swift */; };
 		C2C3DE4F1B22B12E00332CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DE4E1B22B12E00332CFC /* AppDelegate.swift */; };
 		C2C3DE561B22B12E00332CFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE551B22B12E00332CFC /* Images.xcassets */; };
 		C2C3DE591B22B12E00332CFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2C3DE571B22B12E00332CFC /* LaunchScreen.xib */; };
@@ -72,6 +95,30 @@
 		C25FD56D1B2D9C8700B9C4F4 /* EventDetailWeb.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EventDetailWeb.storyboard; sourceTree = "<group>"; };
 		C25FD56F1B2DA42F00B9C4F4 /* EventDetailWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailWebViewController.swift; sourceTree = "<group>"; };
 		C25FD5721B40138900B9C4F4 /* EventViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		C28B42671B42DB59003F1572 /* Bond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bond.h; sourceTree = "<group>"; };
+		C28B42681B42DB59003F1572 /* Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bond.swift; sourceTree = "<group>"; };
+		C28B42691B42DB59003F1572 /* Bond+Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+Arrays.swift"; sourceTree = "<group>"; };
+		C28B426A1B42DB59003F1572 /* Bond+Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+Foundation.swift"; sourceTree = "<group>"; };
+		C28B426B1B42DB59003F1572 /* Bond+Functional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+Functional.swift"; sourceTree = "<group>"; };
+		C28B426C1B42DB59003F1572 /* Bond+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+Operators.swift"; sourceTree = "<group>"; };
+		C28B426D1B42DB59003F1572 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28B426F1B42DB59003F1572 /* Bond+UIActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UIActivityIndicatorView.swift"; sourceTree = "<group>"; };
+		C28B42701B42DB59003F1572 /* Bond+UIBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UIBarItem.swift"; sourceTree = "<group>"; };
+		C28B42711B42DB59003F1572 /* Bond+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UIButton.swift"; sourceTree = "<group>"; };
+		C28B42721B42DB59003F1572 /* Bond+UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UICollectionView.swift"; sourceTree = "<group>"; };
+		C28B42731B42DB59003F1572 /* Bond+UIDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UIDatePicker.swift"; sourceTree = "<group>"; };
+		C28B42741B42DB59003F1572 /* Bond+UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UIImageView.swift"; sourceTree = "<group>"; };
+		C28B42751B42DB59003F1572 /* Bond+UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UILabel.swift"; sourceTree = "<group>"; };
+		C28B42761B42DB59003F1572 /* Bond+UINavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UINavigationItem.swift"; sourceTree = "<group>"; };
+		C28B42771B42DB59003F1572 /* Bond+UIProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UIProgressView.swift"; sourceTree = "<group>"; };
+		C28B42781B42DB59003F1572 /* Bond+UISlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UISlider.swift"; sourceTree = "<group>"; };
+		C28B42791B42DB59003F1572 /* Bond+UISwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UISwitch.swift"; sourceTree = "<group>"; };
+		C28B427A1B42DB59003F1572 /* Bond+UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UITableView.swift"; sourceTree = "<group>"; };
+		C28B427B1B42DB59003F1572 /* Bond+UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UITextField.swift"; sourceTree = "<group>"; };
+		C28B427C1B42DB59003F1572 /* Bond+UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UITextView.swift"; sourceTree = "<group>"; };
+		C28B427D1B42DB59003F1572 /* Bond+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+UIView.swift"; sourceTree = "<group>"; };
+		C28B42881B42DB59003F1572 /* Bond+CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+CALayer.swift"; sourceTree = "<group>"; };
+		C28B42891B42DB59003F1572 /* Bond+NSLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+NSLayoutConstraint.swift"; sourceTree = "<group>"; };
 		C2C3DE491B22B12E00332CFC /* ConnpassRSS-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConnpassRSS-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C3DE4D1B22B12E00332CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2C3DE4E1B22B12E00332CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +202,53 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		C28B42661B42DB39003F1572 /* Bond */ = {
+			isa = PBXGroup;
+			children = (
+				C28B42671B42DB59003F1572 /* Bond.h */,
+				C28B42681B42DB59003F1572 /* Bond.swift */,
+				C28B42691B42DB59003F1572 /* Bond+Arrays.swift */,
+				C28B426A1B42DB59003F1572 /* Bond+Foundation.swift */,
+				C28B426B1B42DB59003F1572 /* Bond+Functional.swift */,
+				C28B426C1B42DB59003F1572 /* Bond+Operators.swift */,
+				C28B426D1B42DB59003F1572 /* Info.plist */,
+				C28B426E1B42DB59003F1572 /* iOS */,
+				C28B42871B42DB59003F1572 /* Shared */,
+			);
+			path = Bond;
+			sourceTree = "<group>";
+		};
+		C28B426E1B42DB59003F1572 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C28B426F1B42DB59003F1572 /* Bond+UIActivityIndicatorView.swift */,
+				C28B42701B42DB59003F1572 /* Bond+UIBarItem.swift */,
+				C28B42711B42DB59003F1572 /* Bond+UIButton.swift */,
+				C28B42721B42DB59003F1572 /* Bond+UICollectionView.swift */,
+				C28B42731B42DB59003F1572 /* Bond+UIDatePicker.swift */,
+				C28B42741B42DB59003F1572 /* Bond+UIImageView.swift */,
+				C28B42751B42DB59003F1572 /* Bond+UILabel.swift */,
+				C28B42761B42DB59003F1572 /* Bond+UINavigationItem.swift */,
+				C28B42771B42DB59003F1572 /* Bond+UIProgressView.swift */,
+				C28B42781B42DB59003F1572 /* Bond+UISlider.swift */,
+				C28B42791B42DB59003F1572 /* Bond+UISwitch.swift */,
+				C28B427A1B42DB59003F1572 /* Bond+UITableView.swift */,
+				C28B427B1B42DB59003F1572 /* Bond+UITextField.swift */,
+				C28B427C1B42DB59003F1572 /* Bond+UITextView.swift */,
+				C28B427D1B42DB59003F1572 /* Bond+UIView.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		C28B42871B42DB59003F1572 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C28B42881B42DB59003F1572 /* Bond+CALayer.swift */,
+				C28B42891B42DB59003F1572 /* Bond+NSLayoutConstraint.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		C2C3DE401B22B12E00332CFC = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +312,7 @@
 		C2C3DE6E1B22BEEB00332CFC /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				C28B42661B42DB39003F1572 /* Bond */,
 				C2C3DE981B22BF5900332CFC /* Alamofire */,
 				C2C3DE8F1B22BF2A00332CFC /* SwiftyJSON */,
 				C2C3DE6F1B22BF1700332CFC /* ObjectMapper */,
@@ -435,6 +530,7 @@
 				C2C3DE861B22BF1700332CFC /* ObjectMapper.podspec in Resources */,
 				C2C3DE591B22B12E00332CFC /* LaunchScreen.xib in Resources */,
 				C25FD56E1B2D9C8700B9C4F4 /* EventDetailWeb.storyboard in Resources */,
+				C28B428F1B42DB5A003F1572 /* Info.plist in Resources */,
 				C2C3DE561B22B12E00332CFC /* Images.xcassets in Resources */,
 				C2C3DE961B22BF4600332CFC /* Info-OSX.plist in Resources */,
 			);
@@ -454,9 +550,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28B42981B42DB5A003F1572 /* Bond+UIProgressView.swift in Sources */,
+				C28B429E1B42DB5A003F1572 /* Bond+UIView.swift in Sources */,
 				C25FD5701B2DA42F00B9C4F4 /* EventDetailWebViewController.swift in Sources */,
+				C28B429B1B42DB5A003F1572 /* Bond+UITableView.swift in Sources */,
 				C2C3DE881B22BF1700332CFC /* DateFormaterTransform.swift in Sources */,
 				C2C3DE821B22BF1700332CFC /* Mapper.swift in Sources */,
+				C28B428A1B42DB59003F1572 /* Bond.swift in Sources */,
+				C28B42921B42DB5A003F1572 /* Bond+UIButton.swift in Sources */,
+				C28B42961B42DB5A003F1572 /* Bond+UILabel.swift in Sources */,
 				C25FD5731B40138900B9C4F4 /* EventViewModel.swift in Sources */,
 				C24FDCF21B2C118D00D712B4 /* EventDetailTableViewCell.swift in Sources */,
 				C2C3DE8E1B22BF1700332CFC /* URLTransform.swift in Sources */,
@@ -466,25 +568,41 @@
 				C2C3DE891B22BF1700332CFC /* DateTransform.swift in Sources */,
 				C2C3DE8D1B22BF1700332CFC /* TransformType.swift in Sources */,
 				C2C3DEBC1B22E69800332CFC /* EventModel.swift in Sources */,
+				C28B428E1B42DB5A003F1572 /* Bond+Operators.swift in Sources */,
 				C2C3DE831B22BF1700332CFC /* Operators.swift in Sources */,
 				C24FDCF41B2C1F1300D712B4 /* EventDetailTableViewController.swift in Sources */,
 				C2C3DEA71B22BF7100332CFC /* Manager.swift in Sources */,
+				C28B429D1B42DB5A003F1572 /* Bond+UITextView.swift in Sources */,
 				C2C3DE841B22BF1700332CFC /* ToJSON.swift in Sources */,
+				C28B428C1B42DB5A003F1572 /* Bond+Foundation.swift in Sources */,
 				C2C3DEA51B22BF7100332CFC /* Download.swift in Sources */,
 				C2C3DE8A1B22BF1700332CFC /* EnumTransform.swift in Sources */,
+				C28B42941B42DB5A003F1572 /* Bond+UIDatePicker.swift in Sources */,
+				C28B429C1B42DB5A003F1572 /* Bond+UITextField.swift in Sources */,
 				C2C3DE8B1B22BF1700332CFC /* ISO8601DateTransform.swift in Sources */,
+				C28B428D1B42DB5A003F1572 /* Bond+Functional.swift in Sources */,
+				C28B42951B42DB5A003F1572 /* Bond+UIImageView.swift in Sources */,
 				C2C3DEAC1B22BF7100332CFC /* Validation.swift in Sources */,
 				C2C3DEB21B22D11600332CFC /* EventListViewController.swift in Sources */,
 				C2C3DEA41B22BF7100332CFC /* Alamofire.swift in Sources */,
 				C2C3DEBE1B22F6C100332CFC /* ConnpassEventRequestManager.swift in Sources */,
+				C28B42A81B42DB5A003F1572 /* Bond+NSLayoutConstraint.swift in Sources */,
 				C2C3DE871B22BF1700332CFC /* CustomDateFormatTransform.swift in Sources */,
 				C2C3DEA81B22BF7100332CFC /* ParameterEncoding.swift in Sources */,
+				C28B42911B42DB5A003F1572 /* Bond+UIBarItem.swift in Sources */,
 				C2C3DEC81B287AE300332CFC /* DateUtil.swift in Sources */,
+				C28B42901B42DB5A003F1572 /* Bond+UIActivityIndicatorView.swift in Sources */,
+				C28B42991B42DB5A003F1572 /* Bond+UISlider.swift in Sources */,
 				C2C3DEAB1B22BF7100332CFC /* Upload.swift in Sources */,
 				C2C3DEC01B22FA2100332CFC /* ConnpassModelManager.swift in Sources */,
+				C28B42A71B42DB5A003F1572 /* Bond+CALayer.swift in Sources */,
+				C28B42971B42DB5A003F1572 /* Bond+UINavigationItem.swift in Sources */,
+				C28B42931B42DB5A003F1572 /* Bond+UICollectionView.swift in Sources */,
+				C28B429A1B42DB5A003F1572 /* Bond+UISwitch.swift in Sources */,
 				C2C3DE8C1B22BF1700332CFC /* TransformOf.swift in Sources */,
 				C2C3DEC51B272C4500332CFC /* EventTableViewCell.swift in Sources */,
 				C2C3DEA91B22BF7100332CFC /* Request.swift in Sources */,
+				C28B428B1B42DB5A003F1572 /* Bond+Arrays.swift in Sources */,
 				C2C3DE4F1B22B12E00332CFC /* AppDelegate.swift in Sources */,
 				C2C3DEAA1B22BF7100332CFC /* ResponseSerialization.swift in Sources */,
 				C2C3DE811B22BF1700332CFC /* FromJSON.swift in Sources */,

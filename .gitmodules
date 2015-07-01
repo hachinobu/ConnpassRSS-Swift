@@ -7,3 +7,6 @@
 [submodule "SwiftyJSON"]
 	path = SwiftyJSON
 	url = https://github.com/SwiftyJSON/SwiftyJSON.git
+[submodule "Bond"]
+	path = Bond
+	url = https://github.com/SwiftBond/Bond.git

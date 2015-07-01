@@ -10,13 +10,14 @@ import Foundation
 
 class ConnpassModelManager {
     
+    
     class func loadEventWithCompletion(completion: (ConnpassModel!) -> Void) {
         
         ConnpassEventRequestManager.requestConnpassEvents { (request, response, jsonString, error) -> Void in
             if error == nil {
                 let json = JSON(jsonString!)
                 let connpassModel: ConnpassModel? = Mapper<ConnpassModel>().map(json.rawString()!)
-                if let connpass = connpassModel {
+                if let connpass = connpassModel, let events = connpass.events where events.count > 0 {
                     completion(connpass)
                 }
             }

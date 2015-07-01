@@ -18,7 +18,12 @@ class EventListViewController: UIViewController, UITableViewDataSource, UITableV
     
     @IBOutlet weak var eventsTableView: UITableView!
     var refreshControl: UIRefreshControl!
-    var eventModels = [EventModel]()
+    var eventModels = [EventModel]() {
+        //newValue設定後に更新されるようにする
+        didSet {
+            self.eventsTableView.reloadData()
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,10 +59,6 @@ class EventListViewController: UIViewController, UITableViewDataSource, UITableV
             if let events = connpassEvent.events {
                 self.eventModels = events
             }
-            else {
-                self.eventModels = [EventModel]()
-            }
-            self.eventsTableView.reloadData()
             self.refreshControl.endRefreshing()
             UIApplication.sharedApplication().networkActivityIndicatorVisible = false
         }
@@ -97,7 +98,7 @@ extension EventListViewController: UITableViewDelegate {
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
-        let selectEvent: EventModel! = eventModels[indexPath.row]
+        let selectEvent: EventModel = eventModels[indexPath.row]
         
         let storyboard: UIStoryboard = UIStoryboard(name: EventDetailStoryboardName, bundle: NSBundle.mainBundle())
         let eventDetailVC = storyboard.instantiateViewControllerWithIdentifier(EventDetailSegueIdentifier) as! EventDetailTableViewController
