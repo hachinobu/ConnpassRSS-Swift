@@ -75,6 +75,7 @@
 		C2C3DEC01B22FA2100332CFC /* ConnpassModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEBF1B22FA2100332CFC /* ConnpassModelManager.swift */; };
 		C2C3DEC51B272C4500332CFC /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEC41B272C4500332CFC /* EventTableViewCell.swift */; };
 		C2C3DEC81B287AE300332CFC /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3DEC71B287AE300332CFC /* DateUtil.swift */; };
+		C2CAECF71B64EBFA00577B55 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CAECF61B64EBFA00577B55 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +165,7 @@
 		C2C3DEBF1B22FA2100332CFC /* ConnpassModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnpassModelManager.swift; sourceTree = "<group>"; };
 		C2C3DEC41B272C4500332CFC /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		C2C3DEC71B287AE300332CFC /* DateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
+		C2CAECF61B64EBFA00577B55 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -411,6 +413,7 @@
 				C2C3DEBD1B22F6C100332CFC /* ConnpassEventRequestManager.swift */,
 				C2C3DEBF1B22FA2100332CFC /* ConnpassModelManager.swift */,
 				C25FD5711B4012E200B9C4F4 /* ViewModel */,
+				C2CAECF61B64EBFA00577B55 /* APIManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 				TargetAttributes = {
 					C2C3DE481B22B12E00332CFC = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = R8Z7UD83T2;
 					};
 					C2C3DE5D1B22B12E00332CFC = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -589,6 +593,7 @@
 				C28B42A81B42DB5A003F1572 /* Bond+NSLayoutConstraint.swift in Sources */,
 				C2C3DE871B22BF1700332CFC /* CustomDateFormatTransform.swift in Sources */,
 				C2C3DEA81B22BF7100332CFC /* ParameterEncoding.swift in Sources */,
+				C2CAECF71B64EBFA00577B55 /* APIManager.swift in Sources */,
 				C28B42911B42DB5A003F1572 /* Bond+UIBarItem.swift in Sources */,
 				C2C3DEC81B287AE300332CFC /* DateUtil.swift in Sources */,
 				C28B42901B42DB5A003F1572 /* Bond+UIActivityIndicatorView.swift in Sources */,
@@ -726,9 +731,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "ConnpassRSS-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -736,9 +744,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "ConnpassRSS-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

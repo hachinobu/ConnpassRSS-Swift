@@ -21,7 +21,7 @@ class EventListViewController: UIViewController, UITableViewDataSource, UITableV
     var eventModels = [EventModel]() {
         //newValue設定後に更新されるようにする
         didSet {
-            self.eventsTableView.reloadData()
+            eventsTableView.reloadData()
         }
     }
     
@@ -54,13 +54,25 @@ class EventListViewController: UIViewController, UITableViewDataSource, UITableV
     func fetchEvents() {
         UIApplication.sharedApplication().networkActivityIndicatorVisible = true
         
-        ConnpassModelManager.loadEventWithCompletion{ (connpassEvent) -> Void in
+        APIManager.sharedInstance.call(APIManager.FetchAllEvent(params: ["keyword": "swift", "count": "20"])) { response in
             
-            if let events = connpassEvent.events {
-                self.eventModels = events
+            switch response {
+            case .Success(let box):
+                let connpassEvent = box.value
+                if let events = connpassEvent.events {
+                    self.eventModels = events
+                }
+                
+            case .Failure(let box):
+                break
+                
+            default:
+                break
+                
             }
             self.refreshControl.endRefreshing()
             UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+            
         }
         
     }

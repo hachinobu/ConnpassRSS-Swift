@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>94EA4337-791A-4C95-A8C3-D4FDEF79C8A8</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ConnpassRSS-Swift</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D158BC1BC6E5A710B2AD266D1BEAE2242FF6F932</key>
 		<string>github.com:hachinobu/ConnpassRSS-Swift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ConnpassRSS-Swift.xcodeproj</string>
+	<string>ConnpassRSS-Swift.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D158BC1BC6E5A710B2AD266D1BEAE2242FF6F932</key>
